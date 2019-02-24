@@ -172,3 +172,6 @@ CORS_ORIGIN_WHITELIST = (
 )
 
 CORS_ALLOW_CREDENTIALS = True  # 指明在跨域访问中，后端是否支持对cookie的操作。
+
+# 注册自定义的用户模型类
+AUTH_USER_MODEL = 'users.User'
